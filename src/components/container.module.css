@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #0c8a83;
+  --text-color: #757171;
+}
+body {
+  background-color: black;
+  font-family: Poppins;
+  color: white;
+}
+.container {
+  max-width: 1000px;
+  width: 90%;
+  background: #070707;
+  margin: 0 auto;
+  display: grid;
+  padding: 5rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+.contactInfo,
+.education,
+.training,
+.interest,
+.experience,
+.skills {
+  margin-bottom: 2rem;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    padding: 3rem;
+    gap: 7rem;
+  }
+  .profileImg {
+    margin: auto;
+  }
+  .profileContainer {
+    display: flex;
+    flex-direction: column;
+    color: var(--primary-color);
+  }
+  .profileDescription {
+    max-width: 35rem;
+  }
+  .title {
+    color: var(--primary-color);
+  }
+  .grp1,
+  .grp2 {
+    margin-bottom: -5rem;
+    color: var(--text-color);
+  }
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+.profile {
+  grid-column: 1 / -1;
+  margin-bottom: 2rem;
+}
+.profileContainer {
+  display: flex;
+  gap: 2rem;
+}
+.profileImg {
+  max-width: 250px;
+}
+.profileDescription {
+  max-width: 35rem;
+}
+
+.progress1,
+.progress2,
+.progress3,
+.progress4,
+.progress5,
+.progress6 {
+  display: flex;
+}
+.progressbar1 {
+  width: 12rem;
+  height: 1rem;
+  margin-top: 0.4rem;
+  margin-left: 3rem;
+  background-color: antiquewhite;
+}
+.progressbar2 {
+  width: 12rem;
+  height: 1rem;
+  margin-top: 0.4rem;
+  margin-left: 6rem;
+  background-color: antiquewhite;
+}
+.progressbar3 {
+  width: 12rem;
+  height: 1rem;
+  margin-top: 0.4rem;
+  margin-left: 1.6rem;
+  background-color: antiquewhite;
+}
+.progressbar4 {
+  width: 12rem;
+  height: 1rem;
+  margin-top: 0.4rem;
+  margin-left: 3.6rem;
+  background-color: antiquewhite;
+}
+.progressbar5 {
+  width: 12rem;
+  height: 1rem;
+  margin-top: 0.4rem;
+  margin-left: 5.3rem;
+  background-color: antiquewhite;
+}
+.progressbar6 {
+  width: 12rem;
+  height: 1rem;
+  margin-top: 0.4rem;
+  margin-left: 6rem;
+  background-color: antiquewhite;
+}
+.progressColor1 {
+  width: 70%;
+  height: 1rem;
+  text-align: center;
+  background-color: rgb(87, 62, 29);
+  font-size: 10px;
+}
+.progressColor2 {
+  width: 60%;
+  height: 1rem;
+  text-align: center;
+  background-color: rgb(87, 62, 29);
+  font-size: 10px;
+}
+.progressColor3 {
+  width: 75%;
+  height: 1rem;
+  text-align: center;
+  background-color: rgb(87, 62, 29);
+  font-size: 10px;
+}
+.progressColor4 {
+  width: 50%;
+  height: 1rem;
+  text-align: center;
+  background-color: rgb(87, 62, 29);
+  font-size: 10px;
+}
+.progressColor5 {
+  width: 80%;
+  height: 1rem;
+  text-align: center;
+  background-color: rgb(87, 62, 29);
+  font-size: 10px;
+}
+.progressColor6 {
+  width: 80%;
+  height: 1rem;
+  text-align: center;
+  background-color: rgb(87, 62, 29);
+  font-size: 10px;
+}
+.icon {
+  display: flex;
+  gap: 1rem;
+}
