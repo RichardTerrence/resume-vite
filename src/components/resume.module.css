@@ -39,6 +39,7 @@ img {
 .profileContainer {
   grid-column: 1 / -1;
   padding: 1rem;
+  border-bottom: 2px solid #fff;
 }
 .profileName h1 {
   text-align: left;
@@ -49,8 +50,21 @@ img {
 .profileSummary {
   font-size: 1em;
 }
-.profileInfo {
+.profileInfo,
+.profileEducation,
+.profileTraining,
+.profileInterest,
+.profileSkill,
+.profileSoftSkill,
+.profileExperience,
+.profileProject {
   padding: 1rem;
+}
+.profileInfo,
+.profileEducation,
+.profileTraining,
+.profileInterest {
+  border-bottom: 2px solid #fff;
 }
 .title {
   margin-top: 1.5rem;
@@ -59,26 +73,164 @@ img {
   padding-right: 0.5em;
 }
 .profileAbout {
-  padding: 1rem;
-  color: #fff;
+  padding: 2rem;
 }
 .progress {
   display: flex;
+  margin-bottom: 0.5rem;
 }
 .progressbar1 {
   background-color: aliceblue;
   width: 100%;
   height: 100%;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 .progresscolor1 {
+  background-color: rgb(16, 16, 16);
+  width: 70%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+}
+.progressbar2 {
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+  margin-left: 5.7rem;
+}
+.progresscolor2 {
+  background-color: rgb(17, 16, 16);
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+}
+.progressbar3 {
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+  margin-left: 3.4rem;
+}
+.progresscolor3 {
+  background-color: rgb(17, 16, 16);
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+}
+.progressbar4 {
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+  margin-left: 2.3rem;
+}
+.progresscolor4 {
   background-color: rgb(17, 16, 16);
   width: 80%;
   height: 100%;
   text-align: center;
+  color: #fff;
+}
+.progressbar5 {
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+  margin-left: 1.5rem;
+}
+.progresscolor5 {
+  background-color: rgb(17, 16, 16);
+  width: 70%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+}
+.progressSoftbar1 {
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+  margin-left: 2.2rem;
+}
+.progressSoftcolor1 {
+  background-color: rgb(16, 16, 16);
+  width: 70%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+}
+.progressSoftbar2 {
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+  margin-left: 5.8rem;
+}
+.progressSoftcolor2 {
+  background-color: rgb(16, 16, 16);
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+}
+.progressSoftbar3 {
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+  margin-left: 4.7rem;
+}
+.progressSoftcolor3 {
+  background-color: rgb(16, 16, 16);
+  width: 75%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+}
+.progressSoftbar4 {
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+  margin-left: 1rem;
+}
+.progressSoftcolor4 {
+  background-color: rgb(16, 16, 16);
+  width: 65%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
 }
 @media (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;
+  }
+  .progress {
+    display: block;
+  }
+  .profileName h1 {
+    font-size: 1.7em;
+  }
+  .progressbar1,
+  .progressbar2,
+  .progressbar3,
+  .progressbar4,
+  .progressbar5,
+  .progressSoftbar1,
+  .progressSoftbar2,
+  .progressSoftbar3,
+  .progressSoftbar4 {
+    margin-left: 0.1rem;
+  }
+}
+@media (max-width: 992px) {
+  .progress {
+    display: block;
+  }
+  .progressbar1,
+  .progressbar2,
+  .progressbar3,
+  .progressbar4,
+  .progressbar5,
+  .progressSoftbar1,
+  .progressSoftbar2,
+  .progressSoftbar3,
+  .progressSoftbar4 {
+    margin-left: 0.1rem;
   }
 }
